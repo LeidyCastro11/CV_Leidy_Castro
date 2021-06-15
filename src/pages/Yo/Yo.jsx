@@ -1,5 +1,5 @@
 import React from 'react'
-import {Perfil} from './../../Components'
+import {Perfil} from '../../components/'
 
 const Yo = () => {
     return(

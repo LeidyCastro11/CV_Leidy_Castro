@@ -1,24 +1,22 @@
 import './App.css';
-import GlobalStyles from './globalStyles';
+import {GlobalStyle} from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Skills from './pages/Skills/Skills';
 import Yo from './pages/Yo/Yo';
 
 function App() {
   return (
-    <div className="App">
+  
       <Router>
-      <GlobalStyles />
-      <switch>
-        <Route path="/yo" exact components={Yo} /></switch>
-      <switch>
-        <Route path="/skills" exact components={Skills} />
-      </switch>
+      <GlobalStyle />
+      <Switch>
+        
+      <Route path="/" exact components={Yo} />
+      <Route path="/skills" exact components={Skills} />
+      </Switch>
 
       </Router>
       
-      
-    </div>
   );
 }
 

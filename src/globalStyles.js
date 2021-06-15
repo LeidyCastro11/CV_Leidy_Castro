@@ -1,6 +1,6 @@
 import {createGlobalStyle} from 'styled-components'
 
-const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 .CuerpoTitle {
     margin-right: 96px;
 }
@@ -65,4 +65,3 @@ const GlobalStyles = createGlobalStyle`
 
 `;
 
-export default GlobalStyles;

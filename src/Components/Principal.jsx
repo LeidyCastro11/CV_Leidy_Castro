@@ -17,7 +17,7 @@ const Principal = () => {
                 <p>LeidyCastro11</p>   
             </div>
 
-            <Link to="/yo">
+            <Link to="/">
                 <button>Mi Perfil</button>
             </Link>
             <Link to="/skills">
