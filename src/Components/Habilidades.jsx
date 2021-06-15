@@ -1,13 +1,16 @@
 import React from 'react' //Importar siempre react
 import '../utils/CSS/Habilidades.estilos.css'
 import Leidy from '../utils/images/foto_perfil.jpg'
+import {Link} from 'react-router-dom'
 
 const Habilidades = () => {
     return (
 
         <div className="container_Habilidades">
                 <div className="ContainerImage">
-                    <img src={Leidy} alt="Hola esta es Leidy" />
+                <Link to="/">
+                <button type="button"> <img src={Leidy} alt="Hola esta es Leidy" /></button>
+                </Link>
                 </div>
             <div className="ContainerText">
                 <h1 className="CuerpoTitle">Leidy Dayana Castro Fajardo</h1>
