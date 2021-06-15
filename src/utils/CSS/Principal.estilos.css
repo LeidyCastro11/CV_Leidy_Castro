@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    background-color: #0F0E0E;
+}
+
+.container_Principal {   
+    width: 1130px;
+    height: 550px;
+    display: flex;
+    border: 7px solid #47D2B1;
+    background-color: #0F0E0E;
+    justify-content: space-between;
+    color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.CuerpoTitle {
+    margin-right: 96px;
+}
+
+.ContainerText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.ContainerText p{
+    font-family: serif;
+    font-size: 20px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.ContainerImage{
+    display: flex;
+    width: 10%;
+    height: 70%;
+    margin-top: 40px;
+    margin-left: 90px;
+    justify-content: center;
+}
+
+.ContainerImage img {
+    width: 130%;
+    height: 60%;
+}

@@ -1,0 +1,22 @@
+
+.container_Habilidades {   
+    width: 1130px;
+    height: 550px;
+    display: flex;
+    border: 7px solid #5BDA50;
+    background-color: #0F0E0E;
+    justify-content: space-between;
+    color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.List1 li {
+
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: serif;
+    font-size: 19px;
+}

@@ -1,0 +1,11 @@
+.container_Estudios {   
+    width: 1130px;
+    height: 550px;
+    display: flex;
+    border: 7px solid #DA9250;
+    background-color: #0F0E0E;
+    justify-content: space-between;
+    color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 110px;
+}
