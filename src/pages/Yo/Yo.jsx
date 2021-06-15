@@ -1,10 +1,11 @@
 import React from 'react'
-import {Perfil} from '../../components/'
+import Principal from '../../components/Principal';
+
 
 const Yo = () => {
     return(
         <>
-        <Perfil />
+        <Principal />
         </>
     )
 }

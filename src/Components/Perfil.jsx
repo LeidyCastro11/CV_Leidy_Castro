@@ -23,7 +23,7 @@ const Perfil = () => {
                 </p>
             </div>
         </div>
-     )
+     );
 }
 
 export default Perfil;
