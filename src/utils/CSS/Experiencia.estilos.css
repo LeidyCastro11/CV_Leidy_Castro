@@ -4,6 +4,9 @@
     display: flex;
     border: 7px solid #696868;
     background-image: url(../images/Gricesito.jpg);
+    opacity: 0.6; /*transparecia*/
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
     background-repeat: no-repeat;
     background-size: 100%;
     justify-content: space-between;

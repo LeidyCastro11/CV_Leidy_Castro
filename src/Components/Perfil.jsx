@@ -1,6 +1,9 @@
 import React from 'react' //Importar siempre react
 import '../utils/CSS/Perfil.estilos.css'
 import Leidy from '../utils/images/foto_perfil.jpg'
+import Whatsapp from '../utils/images/WhatsApp.jpg'
+import Gmail from '../utils/images/Gmail.jpg'
+import Github from '../utils/images/github.png'
 import {Link} from 'react-router-dom'
 
 const Perfil = () => {
@@ -14,9 +17,9 @@ const Perfil = () => {
                 </div>
             <div className="ContainerText">
                 <h1 className="CuerpoTitle">Leidy Dayana Castro Fajardo</h1>
-                <p>320 2291394</p>
-                <p>dayanacf3@gmail.com</p>
-                <p>LeidyCastro11</p>   
+                    <p><img id="Wapp" src={Whatsapp} alt="WhatsApp" href="https://web.whatsapp.com/" /> 320 2291394</p>
+                    <p><img id="Wapp" src={Gmail} alt="Gmail" href="https://mail.google.com/mail/u/0/#inbox" /> dayanacf3@gmail.com</p>
+                    <p><img id="Wapp" src={Github} alt="Github" href="https://mail.google.com/mail/u/0/#inbox" /> LeidyCastro11</p>   
             </div>
 
             <div className="Descripcion">

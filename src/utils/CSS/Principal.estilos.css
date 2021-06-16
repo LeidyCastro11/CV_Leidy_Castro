@@ -9,10 +9,19 @@ body, html {
     display: flex;
     border: 7px solid #47D2B1;
     background-image: url(../images/Fondo.jpg);
+    opacity: 0.6; /*transparecia*/
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
     justify-content: space-between;
     color: blanchedalmond;
     margin-top: 30px;
     margin-left: 110px;
+}
+
+#Wapp{
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
 }
 
 .principal{

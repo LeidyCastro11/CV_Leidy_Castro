@@ -6,6 +6,9 @@
     border: 7px solid #5BDA50;
     /* background-color: #0F0E0E; */
     background-image: url(../images/verde.jpg);
+    opacity: 0.6; /*transparecia*/
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
     background-repeat: no-repeat;
     background-size: 100%;
     justify-content: space-between;
