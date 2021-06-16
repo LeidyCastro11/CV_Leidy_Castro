@@ -8,19 +8,43 @@ body, html {
     height: 550px;
     display: flex;
     border: 7px solid #47D2B1;
-    background-color: #0F0E0E;
+    background-image: url(../images/Fondo.jpg);
     justify-content: space-between;
     color: blanchedalmond;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 110px;
 }
 
-.botones {
+.principal{
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    width: 980px;
+    height: 250px;
+    margin-top: 265px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.botones1 {
+    width: 240px;
+    height: 80px;
     margin-top: 10px;
     background-color:#0F0E0E;
+    margin-left: 175px ;
     color: white;
     border: 3px solid white;
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    border-radius: 20px;
 
+}
+
+#containerBotones2 {
+    /* border: 2px solid violet; */
+    margin-top: 40px;
+   
 }
 .CuerpoTitle {
     margin-right: 96px;
@@ -43,16 +67,4 @@ body, html {
     text-align: justify;
 }
 
-.ContainerImage{
-    display: flex;
-    width: 10%;
-    height: 70%;
-    margin-top: 40px;
-    margin-left: 90px;
-    justify-content: center;
-}
 
-.ContainerImage img {
-    width: 130%;
-    height: 60%;
-}

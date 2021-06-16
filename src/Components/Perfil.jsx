@@ -1,13 +1,16 @@
 import React from 'react' //Importar siempre react
 import '../utils/CSS/Perfil.estilos.css'
 import Leidy from '../utils/images/foto_perfil.jpg'
+import {Link} from 'react-router-dom'
 
 const Perfil = () => {
     return (
 
         <div className="container_Perfil">
                 <div className="ContainerImage">
-                    <img src={Leidy} alt="Hola esta es Leidy" />
+                    <Link to="/">
+                        <img src={Leidy} alt="Hola esta es Leidy" />
+                    </Link>
                 </div>
             <div className="ContainerText">
                 <h1 className="CuerpoTitle">Leidy Dayana Castro Fajardo</h1>

@@ -4,10 +4,13 @@
     height: 550px;
     display: flex;
     border: 7px solid #5BDA50;
-    background-color: #0F0E0E;
+    /* background-color: #0F0E0E; */
+    background-image: url(../images/verde.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     justify-content: space-between;
     color: blanchedalmond;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 110px;
 }
 

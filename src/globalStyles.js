@@ -27,13 +27,13 @@ export const GlobalStyle = createGlobalStyle`
     width: 10%;
     height: 70%;
     margin-top: 40px;
-    margin-left: 90px;
+    margin-left: 100px;
     justify-content: center;
 }
 
 .ContainerImage img {
-    width: 130%;
-    height: 60%;
+    width: 155%;
+    height: 57%;
 }
 
 .Descripcion{

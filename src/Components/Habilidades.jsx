@@ -9,7 +9,7 @@ const Habilidades = () => {
         <div className="container_Habilidades">
                 <div className="ContainerImage">
                 <Link to="/">
-                <button type="button"> <img src={Leidy} alt="Hola esta es Leidy" /></button>
+                <img src={Leidy} alt="Hola esta es Leidy" />
                 </Link>
                 </div>
             <div className="ContainerText">

@@ -2,10 +2,12 @@
     width: 1130px;
     height: 550px;
     display: flex;
-    border: 7px solid #DA5069;
-    background-color: #0F0E0E;
+    border: 7px solid #696868;
+    background-image: url(../images/Gricesito.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     justify-content: space-between;
     color: blanchedalmond;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 110px;
 }

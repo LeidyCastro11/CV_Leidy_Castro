@@ -10,33 +10,33 @@ const Principal = () => {
         <div className="container_Principal"> 
                     <div className="ContainerImage">
                         <Link to="/">
-                        <button type="button"> <img src={Leidy} alt="Hola esta es Leidy" /></button>
+                        <img src={Leidy} alt="Hola esta es Leidy" />
                         </Link>
                     </div>
                 <div className="ContainerText">
                     <h1 className="CuerpoTitle">Leidy Dayana Castro Fajardo</h1>
-                    <p><i class="fa fa-github" aria-hidden="true"></i>320 2291394</p>
+                    <p>320 2291394</p>
                     <p>dayanacf3@gmail.com</p>
                     <p>LeidyCastro11</p>   
                 </div>
 
-                <div className="Descripcion">   
-                    <p>
+                <div className="principal">   
+                    <p id="containerBotones1">
                     <Link to="/yo">
-                        <button className="botones" type="button">Mi Perfil</button>
+                        <button className="botones1" type="button">Mi Perfil</button>
                     </Link>
                     <Link to="/skills">
-                        <button>Habilidades</button>
+                        <button className="botones1" type="button">Habilidades</button>
                     </Link>
                     </p>
                     
-                    <p>
+                    <p id="containerBotones2">
                     <Link to="/estudios">
-                        <button>Estudios</button>
+                        <button className="botones1" type="button">Estudios</button>
                     </Link>
 
                     <Link to="/experiencia">
-                        <button>Experiencia</button>
+                        <button className="botones1" type="button">Experiencia</button>
                     </Link>
                     </p>
                 </div>
