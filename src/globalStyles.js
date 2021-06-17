@@ -34,34 +34,20 @@ export const GlobalStyle = createGlobalStyle`
 .ContainerImage img {
     width: 155%;
     height: 57%;
+    border-radius: 20px;
 }
 
 .Descripcion{
-    border: 4px solid white;
+    display: flex;
     border-radius: 15px;
     display: block;
     position: absolute;
     width: 950px;
-    height: 218px;
-    margin-top: 300px;
+    height: 230px;
+    margin-top: 290px;
     margin-left: 90px;
-    text-align: justify;
 }
 
-.Descripcion p {
-    font-family: serif;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 19px;
-}
-
-.Subtitulo {
-    font-family: serif;
-    font-style: italic;
-    margin-left: 15px;
-    font-size: 28px;
-    margin-top: 15px;
-}
 
 `;
 

@@ -4,6 +4,7 @@ import Leidy from '../utils/images/foto_perfil.jpg'
 import Whatsapp from '../utils/images/WhatsApp.jpg'
 import Gmail from '../utils/images/Gmail.jpg'
 import Github from '../utils/images/github.png'
+import Habilidadesimg from '../utils/images/Habilidades.jpg'
 import {Link} from 'react-router-dom'
 
 const Habilidades = () => {
@@ -22,21 +23,33 @@ const Habilidades = () => {
                     <p><img id="Wapp" src={Github} alt="Github" href="https://mail.google.com/mail/u/0/#inbox" /> LeidyCastro11</p>    
             </div>
             
-            <div className="Descripcion">
-                <h2 className="Subtitulo"> Habilidades </h2>
-                <ul className="List1">{/*Etiqueta que muestra una lista ordenada */}
+            <div className="Descrip">
+            
+                <div className="ContainerInfo">
+                    <div className="DesExperiencia">
+                        <h2 className="Subtitulo"> Habilidades </h2>
 
-                    <li>*HTML5</li>
-                    <li>*Git Hub</li>
-                    <li>*Git Bash</li>
-                    <li>*Figma</li>
-                    <li>*Redaccion</li>
-                    <li>*React</li>
-                    <li>*CSS3</li>
-                    <li>*Creatividad</li>
-                    <li>*JavaScript</li>
-                   
-	            </ul>
+                       <p className="ContainerInfo"> 
+                       <ul className="List1">{/*Etiqueta que muestra una lista ordenada */}
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li> 
+                        </ul>
+
+                        <ul className="List1">{/*Etiqueta que muestra una lista ordenada */}
+                            <li>Git Bash</li>
+                            <li>Git Hub</li>
+                            <li>React</li>
+                        </ul>
+
+                        <ul className="List1">{/*Etiqueta que muestra una lista ordenada */}
+                            <li>Git Bash</li>
+                            <li>Git Hub</li>
+                            <li>React</li>
+                        </ul></p>
+                    </div>
+                    <img src={Habilidadesimg} alt="habilidades" />
+                </div>
             </div>
 
         

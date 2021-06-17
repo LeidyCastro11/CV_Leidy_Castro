@@ -4,6 +4,7 @@ import Leidy from '../utils/images/foto_perfil.jpg'
 import Whatsapp from '../utils/images/WhatsApp.jpg'
 import Gmail from '../utils/images/Gmail.jpg'
 import Github from '../utils/images/github.png'
+import Estudiosimg from '../utils/images/Estudios.jpg'
 import {Link} from 'react-router-dom'
 
 const Estudios = () => {
@@ -23,10 +24,15 @@ const Estudios = () => {
             </div>
 
             <div className="Descripcion">
-                <h2 className="Subtitulo"> Estudios </h2>
-                <p>Año: 2020</p>
-                <p>Titulo: Bachiller Academico</p>
-                <p>Institucion: I.E.D Aquileo Parra</p>
+                <div className="ContainerInfo">
+                    <img src={Estudiosimg} alt="estudios" />
+                    <div className="DesEstudios">
+                        <h2 className="Subtitulo"> Estudios </h2>
+                        <p>Año: 2020</p>
+                        <p>Titulo: Bachiller Academico</p>
+                        <p>Institucion: I.E.D Aquileo Parra</p>
+                    </div>
+                </div>
             </div>
         </div>
 

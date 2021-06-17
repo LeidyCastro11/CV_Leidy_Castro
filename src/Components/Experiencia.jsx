@@ -4,6 +4,7 @@ import Leidy from '../utils/images/foto_perfil.jpg'
 import Whatsapp from '../utils/images/WhatsApp.jpg'
 import Gmail from '../utils/images/Gmail.jpg'
 import Github from '../utils/images/github.png'
+import Experienciaimg from '../utils/images/Experiencia.jpg'
 import {Link} from 'react-router-dom'
 
 const Experiencia = () => {
@@ -22,9 +23,14 @@ const Experiencia = () => {
                     <p><img id="Wapp" src={Github} alt="Github" href="https://mail.google.com/mail/u/0/#inbox" /> LeidyCastro11</p>   
             </div>
 
-            <div className="Descripcion">
-                <h2 className="Subtitulo"> Experiencia </h2>
-                <p> He creado algunos proyectos durante mi formacion como desarrolladora fron end y ahora uso GitHub para mostrar mis proyectos y dar a conocer de una mejor manera mi experiencia en la programacion. </p>
+            <div className="Descrip">
+                <div className="ContainerInfo">
+                    <div className="DesExperiencia">
+                        <h2 className="Subtitulo"> Experiencia </h2>
+                        <p> He creado algunos proyectos durante mi formacion como desarrolladora fron end y ahora uso GitHub para mostrar mis proyectos y dar a conocer de una mejor manera mi experiencia en la programacion. </p>
+                    </div>
+                    <img src={Experienciaimg} alt="experiencia" />                
+                </div>
             </div>
 
 
