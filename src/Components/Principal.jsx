@@ -18,9 +18,9 @@ const Principal = () => {
                     </div>
                 <div className="ContainerText">
                     <h1 className="CuerpoTitle">Leidy Dayana Castro Fajardo</h1>
-                    <p><img id="Wapp" src={Whatsapp} alt="WhatsApp" href="https://web.whatsapp.com/" /> 320 2291394</p>
-                    <p><img id="Wapp" src={Gmail} alt="Gmail" href="https://mail.google.com/mail/u/0/#inbox" /> dayanacf3@gmail.com</p>
-                    <p><img id="Wapp" src={Github} alt="Github" href="https://mail.google.com/mail/u/0/#inbox" /> LeidyCastro11</p>   
+                    <p><img id="Wapp" src={Whatsapp} alt="WhatsApp"  /> 320 2291394</p>
+                    <p><img id="Wapp" src={Gmail} alt="Gmail" /> dayanacf3@gmail.com</p>
+                    <p><a href="https://github.com/LeidyCastro11"><img id="Wapp" src={Github} alt="Github" /></a> LeidyCastro11</p>   
                 </div>
 
                 <div className="principal">   
