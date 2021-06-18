@@ -4,7 +4,6 @@
     height: 550px;
     display: flex;
     border: 7px solid #5BDA50;
-    /* background-color: #0F0E0E; */
     background-image: url(../images/verde.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -13,14 +12,88 @@
     margin-top: 30px;
     margin-left: 110px;
 }
-
-.List1 li {
-
-    margin-left: 10px;
-    font-family: serif;
-    font-size: 19px;
+.DesExperiencia h2 {
+    margin-left: 20px;
 }
 
-.DesExperiencia h2 {
-    margin-left: 45px;
+/* -------------------------------------RESPONSIVE------------------------------------------ */
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    .container_Habilidades {   
+        width: 670px;
+        height: 454px;
+        display: flex;
+        border: 7px solid #5BDA50;
+        background-image: url(../images/verde.jpg);
+        background-repeat: no-repeat;
+        background-size: 120%;
+        justify-content: space-between;
+        color: blanchedalmond;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 764px){
+    .container_Habilidades {   
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 765px) and (max-width: 784px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 785px) and (max-width: 804px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    
+}
+@media screen and (min-width: 805px) and (max-width: 824px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 70px;
+    }
+    
+}
+
+@media screen and (min-width: 825px) and (max-width: 844px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (min-width: 845px) and (max-width: 864px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 90px;
+    }
+    
+}
+
+@media screen and (min-width: 865px) and (max-width: 884px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 885px) and (max-width: 900px){
+    .container_Habilidades {   
+        margin-top: 35px;
+        margin-left: 110px;
+    }
+    
 }

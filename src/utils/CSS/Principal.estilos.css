@@ -9,9 +9,6 @@ body, html {
     display: flex;
     border: 7px solid #47D2B1;
     background-image: url(../images/Fondo.jpg);
-    /* opacity: 0.6; /*transparecia
-    transition: background-color 0.2s ease-out,
-              color 0.2s ease-out; */
     justify-content: space-between;
     color: blanchedalmond;
     margin-top: 30px;
@@ -23,7 +20,10 @@ body, html {
     height: 25px;
     border-radius: 7px;
 }
-
+ #Wapp:hover{
+    width: 27px;
+    height: 27px;
+ }
 .principal{
     border-radius: 15px;
     display: block;
@@ -47,11 +47,27 @@ body, html {
     font-family: serif;
     font-style: italic;
     border-radius: 20px;
+   
+}
+
+button {
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+ transition: all 1s ease;
+}
+
+button:hover{
+    height: 90px;
+    width: 250px;
+    opacity: 0.7; /*transparecia*/
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
 
 }
 
+
 #containerBotones2 {
-    /* border: 2px solid violet; */
     margin-top: 40px;
    
 }
@@ -63,6 +79,7 @@ body, html {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: auto;
     margin: 30px;
     font-family: sans-serif;
     font-size: 17px;
@@ -75,5 +92,144 @@ body, html {
     margin: 5px;
     text-align: justify;
 }
+
+/* -------------------------------------RESPONSIVE------------------------------------------ */
+
+@media screen and (min-width: 750px) and (max-width: 900px){
+    .container_Principal {   
+        width: 670px;
+        height: 454px;
+        display: flex;
+        border: 7px solid #47D2B1;
+        background-image: url(../images/Fondo.jpg);
+        justify-content: space-between;
+        color: blanchedalmond;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+    #Wapp{
+        width: 20px;
+        height: 20px;
+        border-radius: 7px;
+    }
+     #Wapp:hover{
+        width: 24px;
+        height: 24px;
+     }
+    .principal{
+        border-radius: 15px;
+        display: block;
+        position: absolute;
+        width: 440px;
+        height: 170px;
+        margin-top: 260px;
+        margin-left: 120px;
+        text-align: justify;
+    }
+    
+    .botones1 {
+        width: 140px;
+        height: 60px;
+        margin-top: 2px;
+        background-color:#0F0E0E;
+        margin-left: 55px ;
+        color: white;
+        border: 3px solid white;
+        font-size: 20px;
+        font-family: serif;
+        font-style: italic;
+        border-radius: 20px;
+       
+    }
+    
+    button {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+     transition: all 1s ease;
+    }
+    
+    button:hover{
+        height: 66px;
+        width: 130px;
+        opacity: 0.7; /*transparecia*/
+        transition: background-color 0.2s ease-out,
+                  color 0.2s ease-out;
+    
+    }
+    
+    
+    #containerBotones2 {
+       
+        margin-top: 20px;
+       
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 764px){
+    .container_Principal {   
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 765px) and (max-width: 784px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 785px) and (max-width: 804px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+    
+}
+@media screen and (min-width: 805px) and (max-width: 824px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 70px;
+    }
+    
+}
+
+@media screen and (min-width: 825px) and (max-width: 844px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (min-width: 845px) and (max-width: 864px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 90px;
+    }
+    
+}
+
+@media screen and (min-width: 865px) and (max-width: 884px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 885px) and (max-width: 900px){
+    .container_Principal {   
+        margin-top: 35px;
+        margin-left: 110px;
+    }
+    
+}
+
 
 
