@@ -1,5 +1,5 @@
 import React from 'react'
-import { Experiencia } from '../../Components';
+import Experiencia from '../../components/Experiencia';
 
 
 const Experience = () => {

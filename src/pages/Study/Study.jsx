@@ -1,5 +1,5 @@
 import React from 'react'
-import { Estudios } from '../../Components';
+import Estudios from '../../components/Estudios';
 
 
 const Study = () => {

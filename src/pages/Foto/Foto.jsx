@@ -1,5 +1,5 @@
 import React from 'react'
-import { Principal } from  '../../Components'
+import Principal from '../../components/Principal';
 
 
 const Foto = () => {
