@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/cv_leidy_castro/static/css/main.e16d146a.chunk.css",
+    "main.js": "/cv_leidy_castro/static/js/main.23e123ea.chunk.js",
+    "main.js.map": "/cv_leidy_castro/static/js/main.23e123ea.chunk.js.map",
+    "runtime-main.js": "/cv_leidy_castro/static/js/runtime-main.102ef164.js",
+    "runtime-main.js.map": "/cv_leidy_castro/static/js/runtime-main.102ef164.js.map",
+    "static/js/2.90a3b1e1.chunk.js": "/cv_leidy_castro/static/js/2.90a3b1e1.chunk.js",
+    "static/js/2.90a3b1e1.chunk.js.map": "/cv_leidy_castro/static/js/2.90a3b1e1.chunk.js.map",
+    "index.html": "/cv_leidy_castro/index.html",
+    "static/css/main.e16d146a.chunk.css.map": "/cv_leidy_castro/static/css/main.e16d146a.chunk.css.map",
+    "static/js/2.90a3b1e1.chunk.js.LICENSE.txt": "/cv_leidy_castro/static/js/2.90a3b1e1.chunk.js.LICENSE.txt",
+    "static/media/Estudios.0defa121.jpg": "/cv_leidy_castro/static/media/Estudios.0defa121.jpg",
+    "static/media/Experiencia.080dfa8f.jpg": "/cv_leidy_castro/static/media/Experiencia.080dfa8f.jpg",
+    "static/media/Principal.estilos.css": "/cv_leidy_castro/static/media/Fondo.aa62527d.jpg",
+    "static/media/Perfil.estilos.css": "/cv_leidy_castro/static/media/Fucsia (1).c781930c.jpeg",
+    "static/media/Gmail.946fe6f5.jpg": "/cv_leidy_castro/static/media/Gmail.946fe6f5.jpg",
+    "static/media/Experiencia.estilos.css": "/cv_leidy_castro/static/media/Gricesito.390b7424.jpg",
+    "static/media/Habilidades.fea38ed7.jpg": "/cv_leidy_castro/static/media/Habilidades.fea38ed7.jpg",
+    "static/media/Estudios.estilos.css": "/cv_leidy_castro/static/media/Naran.d07382a9.jpg",
+    "static/media/Perfil.f4b6127c.jpg": "/cv_leidy_castro/static/media/Perfil.f4b6127c.jpg",
+    "static/media/WhatsApp.1d68e44e.jpg": "/cv_leidy_castro/static/media/WhatsApp.1d68e44e.jpg",
+    "static/media/foto_perfil.da20e560.jpg": "/cv_leidy_castro/static/media/foto_perfil.da20e560.jpg",
+    "static/media/github.a1061039.png": "/cv_leidy_castro/static/media/github.a1061039.png",
+    "static/media/Habilidades.estilos.css": "/cv_leidy_castro/static/media/verde.169405eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.102ef164.js",
+    "static/js/2.90a3b1e1.chunk.js",
+    "static/css/main.e16d146a.chunk.css",
+    "static/js/main.23e123ea.chunk.js"
+  ]
+}
